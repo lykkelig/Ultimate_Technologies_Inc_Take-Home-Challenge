@@ -1,0 +1,30 @@
+Part 2 ‐ Experiment and metrics design
+The neighboring cities of Gotham and Metropolis have complementary circadian rhythms: on weekdays, Ultimate Gotham is most active at night, and Ultimate Metropolis is most active during the day. On weekends, there is reasonable activity in both cities.
+However, a toll bridge, with a two way toll, between the two cities causes driver partners to tend to be exclusive to each city. The Ultimate managers of city operations for the two cities have proposed an experiment to encourage driver partners to be available in both cities, by reimbursing all toll costs.
+1) What would you choose as the key measure of success of this experiment in
+encouraging driver partners to serve both cities, and why would you choose this metric?
+2) Describe a practical experiment you would design to compare the effectiveness of the proposed change in relation to the key measure of success. Please provide details on:
+a) how you will implement the experiment
+b) what statistical test(s) you will conduct to verify the significance of the
+observation
+c) how you would interpret the results and provide recommendations to the city
+operations team along with any caveats.
+
+1) The key measure of success for this experiment would be the increase in the number of driver partners crossing the toll bridge to serve both cities during weekdays. This metric directly reflects the desired behavior change; driver partners being available in both cities despite the toll cost. By tracking this metric, we can evaluate the toll reimbursement policy's effectiveness in incentivizing driver partners to operate in both cities.
+
+2a) Before implementing the toll reimbursement policy, collect data on the number of driver partners crossing the toll bridge during weekdays. 
+
+Implement the toll reimbursement policy and communicate it to all driver partners.
+
+After a specified time frame, two to three months, collect data on the number of driver partners crossing the toll bridge during weekdays.
+
+Compare the post-implementation data with the baseline data to evaluate the impact of the toll reimbursement policy.
+
+2b) To verify the significance of the policy change, a hypothesis test can be conducted. Specifically, a paired t-test,  this test would compare the mean number of driver partners crossing the toll bridge before and after the implementation of the toll reimbursement policy.
+
+2c) If the paired t-test yields a statistically significant increase in the mean number of driver partners crossing the toll bridge after the implementation of the toll reimbursement policy, it indicates that the policy has effectively encouraged driver partners to serve both cities.
+
+Based on the results, recommend to the city operations team to continue the toll reimbursement policy as it appears to be successful in achieving the desired outcome of increasing driver partners' availability in both cities during weekdays.
+
+"any caveats": Confounding factors that could influence include: seasonal variations, changes in traffic patterns, or holiday events, concerts, conventions and other gatherings that fall only within the data collection period. Additionally, ensure that the sample size is sufficient to provide reliable results
+
